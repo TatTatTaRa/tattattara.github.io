@@ -6,4 +6,13 @@
     --sub-color04: #F7F6FE;
     --sub-color05: #8985A6;
     --sub-color06: #F2F2F2;
+
+    /* Spacing */
+    --card: 5px;
+    /* Gaps */
+    --gap-3xs: 10px;
+    /* Paddings */
+    --padding-3xs: 10px;
+    /* Effects */
+    --card-shadow: 3px 3px 20px rgba(0, 0, 0, 0.04);
 }

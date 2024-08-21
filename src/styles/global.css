@@ -33,7 +33,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'fontawesome';
+    font-family: 'FontAwesome';
     src: url('/public/static/fonts/Font Awesome 6 Free-Solid-900.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -42,16 +42,19 @@
 * {
     font-family: SUITE, sans-serif;
     color: #434B69;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    line-height: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/*code {*/
+/*    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
+/*    monospace;*/
+/*}*/

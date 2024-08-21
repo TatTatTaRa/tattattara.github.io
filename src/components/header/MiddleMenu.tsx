@@ -22,10 +22,10 @@ const MiddleMenu = styled(({menu, className}: Props) => (
     box-sizing: border-box;
     text-align: left;
     font-size: 15px;
-    color: var(--sub-color05);
     
     b {
         position: relative;
+        color: var(--sub-color05);
     }
 `
 
