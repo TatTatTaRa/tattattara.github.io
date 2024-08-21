@@ -1,0 +1,57 @@
+/* 빙그레 */
+@font-face {
+    font-family: 'Binggrae';
+    src: url('/public/static/fonts/Binggrae.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Binggrae';
+    src: url('/public/static/fonts/Binggrae-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* SUITE */
+@font-face {
+    font-family: 'SUITE';
+    src: url('/public/static/fonts/SUITE-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SUITE';
+    src: url('/public/static/fonts/SUITE-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* 아이콘 */
+@font-face {
+    font-family: 'Google';
+    src: url('/public/static/fonts/MaterialIconsOutlined-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fontawesome';
+    src: url('/public/static/fonts/Font Awesome 6 Free-Solid-900.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: SUITE, sans-serif;
+    color: #434B69;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
