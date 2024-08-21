@@ -25,10 +25,10 @@ jobs:
         run: npm run build
 
       - name: Export static site
-        run: npm start
+        run: npm run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.THIS_IS_TOKEN_SO }}
-          publish_dir: .next
+          publish_dir: ./out
