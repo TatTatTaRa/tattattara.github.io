@@ -23,6 +23,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/lib/posts.tsx":
+/*!***************************!*\
+  !*** ./src/lib/posts.tsx ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   getAllPosts: () => (/* binding */ getAllPosts)\n/* harmony export */ });\n/* harmony import */ var globby__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! globby */ \"globby\");\n/* harmony import */ var globby__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(globby__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst postsDirectory = path__WEBPACK_IMPORTED_MODULE_1___default().join(process.cwd(), \"posts\");\nasync function getAllPosts() {\n    const patterns = `${postsDirectory}/**/*.md`;\n    const filePaths = await globby__WEBPACK_IMPORTED_MODULE_0___default()(patterns);\n    return filePaths;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGliL3Bvc3RzLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUE0QjtBQUNKO0FBRXhCLE1BQU1FLGlCQUFpQkQsZ0RBQVMsQ0FBQ0csUUFBUUMsR0FBRyxJQUFJO0FBRXpDLGVBQWVDO0lBQ3BCLE1BQU1DLFdBQVcsQ0FBQyxFQUFFTCxlQUFlLFFBQVEsQ0FBQztJQUM1QyxNQUFNTSxZQUFZLE1BQU1SLDZDQUFNQSxDQUFDTztJQUMvQixPQUFPQztBQUNUIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdW50aXRsZWQvLi9zcmMvbGliL3Bvc3RzLnRzeD9lMmI4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBnbG9iYnkgZnJvbSAnZ2xvYmJ5JztcbmltcG9ydCBwYXRoIGZyb20gJ3BhdGgnO1xuXG5jb25zdCBwb3N0c0RpcmVjdG9yeSA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAncG9zdHMnKTtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldEFsbFBvc3RzKCkge1xuICBjb25zdCBwYXR0ZXJucyA9IGAke3Bvc3RzRGlyZWN0b3J5fS8qKi8qLm1kYDtcbiAgY29uc3QgZmlsZVBhdGhzID0gYXdhaXQgZ2xvYmJ5KHBhdHRlcm5zKTtcbiAgcmV0dXJuIGZpbGVQYXRocztcbn0iXSwibmFtZXMiOlsiZ2xvYmJ5IiwicGF0aCIsInBvc3RzRGlyZWN0b3J5Iiwiam9pbiIsInByb2Nlc3MiLCJjd2QiLCJnZXRBbGxQb3N0cyIsInBhdHRlcm5zIiwiZmlsZVBhdGhzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/lib/posts.tsx\n");
+
+/***/ }),
+
 /***/ "./src/pages/_app.tsx":
 /*!****************************!*\
   !*** ./src/pages/_app.tsx ***!
@@ -52,7 +63,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Post)\n/* harmony export */ });\n// pages/posts/[...slug].tsx\nfunction Post() {\n    console.log(\"꾸앙\");\n} // export const getStaticPaths: GetStaticPaths = async () => {\n //   const slugs = getAllSlugs();\n //   const paths = slugs.map((slug) => ({\n //     params: {\n //       slug: slug.split('/'),\n //     },\n //   }));\n //   return { paths, fallback: false };\n // };\n // export const getStaticProps: GetStaticProps = async ({ params }) => {\n //   const slug = (params?.slug as string[]).join('/');\n //   const post = getPostBySlug(slug);\n //   return {\n //     props: {\n //       ...post,\n //     },\n //   };\n // };\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvdGVzdC50c3giLCJtYXBwaW5ncyI6Ijs7OztBQUFBLDRCQUE0QjtBQVViLFNBQVNBO0lBQ3RCQyxRQUFRQyxHQUFHLENBQUM7QUFDZCxFQUVBLDhEQUE4RDtDQUM5RCxpQ0FBaUM7Q0FDakMseUNBQXlDO0NBQ3pDLGdCQUFnQjtDQUNoQiwrQkFBK0I7Q0FDL0IsU0FBUztDQUNULFNBQVM7Q0FFVCx1Q0FBdUM7Q0FDdkMsS0FBSztDQUVMLHdFQUF3RTtDQUN4RSx1REFBdUQ7Q0FDdkQsc0NBQXNDO0NBRXRDLGFBQWE7Q0FDYixlQUFlO0NBQ2YsaUJBQWlCO0NBQ2pCLFNBQVM7Q0FDVCxPQUFPO0NBQ1AsS0FBSyIsInNvdXJjZXMiOlsid2VicGFjazovL3VudGl0bGVkLy4vc3JjL3BhZ2VzL3Rlc3QudHN4PzQ4YTkiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gcGFnZXMvcG9zdHMvWy4uLnNsdWddLnRzeFxuaW1wb3J0IHsgR2V0U3RhdGljUGF0aHMsIEdldFN0YXRpY1Byb3BzIH0gZnJvbSAnbmV4dCc7XG5pbXBvcnQgeyBnZXRBbGxQb3N0cyB9IGZyb20gJy4uL2xpYi9wb3N0cyc7XG5cbmludGVyZmFjZSBQb3N0UHJvcHMge1xuICB0aXRsZTogc3RyaW5nO1xuICBkYXRlOiBzdHJpbmc7XG4gIGNvbnRlbnQ6IHN0cmluZztcbn1cblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUG9zdCgpIHtcbiAgY29uc29sZS5sb2coJ+q+uOyVmScpXG59XG5cbi8vIGV4cG9ydCBjb25zdCBnZXRTdGF0aWNQYXRoczogR2V0U3RhdGljUGF0aHMgPSBhc3luYyAoKSA9PiB7XG4vLyAgIGNvbnN0IHNsdWdzID0gZ2V0QWxsU2x1Z3MoKTtcbi8vICAgY29uc3QgcGF0aHMgPSBzbHVncy5tYXAoKHNsdWcpID0+ICh7XG4vLyAgICAgcGFyYW1zOiB7XG4vLyAgICAgICBzbHVnOiBzbHVnLnNwbGl0KCcvJyksXG4vLyAgICAgfSxcbi8vICAgfSkpO1xuXG4vLyAgIHJldHVybiB7IHBhdGhzLCBmYWxsYmFjazogZmFsc2UgfTtcbi8vIH07XG5cbi8vIGV4cG9ydCBjb25zdCBnZXRTdGF0aWNQcm9wczogR2V0U3RhdGljUHJvcHMgPSBhc3luYyAoeyBwYXJhbXMgfSkgPT4ge1xuLy8gICBjb25zdCBzbHVnID0gKHBhcmFtcz8uc2x1ZyBhcyBzdHJpbmdbXSkuam9pbignLycpO1xuLy8gICBjb25zdCBwb3N0ID0gZ2V0UG9zdEJ5U2x1ZyhzbHVnKTtcblxuLy8gICByZXR1cm4ge1xuLy8gICAgIHByb3BzOiB7XG4vLyAgICAgICAuLi5wb3N0LFxuLy8gICAgIH0sXG4vLyAgIH07XG4vLyB9O1xuIl0sIm5hbWVzIjpbIlBvc3QiLCJjb25zb2xlIiwibG9nIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/test.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Post)\n/* harmony export */ });\n/* harmony import */ var _lib_posts__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../lib/posts */ \"./src/lib/posts.tsx\");\n// pages/posts/[...slug].tsx\n\nfunction Post() {\n    console.log((0,_lib_posts__WEBPACK_IMPORTED_MODULE_0__.getAllPosts)());\n} // export const getStaticPaths: GetStaticPaths = async () => {\n //   const slugs = getAllSlugs();\n //   const paths = slugs.map((slug) => ({\n //     params: {\n //       slug: slug.split('/'),\n //     },\n //   }));\n //   return { paths, fallback: false };\n // };\n // export const getStaticProps: GetStaticProps = async ({ params }) => {\n //   const slug = (params?.slug as string[]).join('/');\n //   const post = getPostBySlug(slug);\n //   return {\n //     props: {\n //       ...post,\n //     },\n //   };\n // };\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvdGVzdC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSw0QkFBNEI7QUFFZTtBQVE1QixTQUFTQztJQUN0QkMsUUFBUUMsR0FBRyxDQUFDSCx1REFBV0E7QUFDekIsRUFFQSw4REFBOEQ7Q0FDOUQsaUNBQWlDO0NBQ2pDLHlDQUF5QztDQUN6QyxnQkFBZ0I7Q0FDaEIsK0JBQStCO0NBQy9CLFNBQVM7Q0FDVCxTQUFTO0NBRVQsdUNBQXVDO0NBQ3ZDLEtBQUs7Q0FFTCx3RUFBd0U7Q0FDeEUsdURBQXVEO0NBQ3ZELHNDQUFzQztDQUV0QyxhQUFhO0NBQ2IsZUFBZTtDQUNmLGlCQUFpQjtDQUNqQixTQUFTO0NBQ1QsT0FBTztDQUNQLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly91bnRpdGxlZC8uL3NyYy9wYWdlcy90ZXN0LnRzeD80OGE5Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIHBhZ2VzL3Bvc3RzL1suLi5zbHVnXS50c3hcbmltcG9ydCB7IEdldFN0YXRpY1BhdGhzLCBHZXRTdGF0aWNQcm9wcyB9IGZyb20gJ25leHQnO1xuaW1wb3J0IHsgZ2V0QWxsUG9zdHMgfSBmcm9tICcuLi9saWIvcG9zdHMnO1xuXG5pbnRlcmZhY2UgUG9zdFByb3BzIHtcbiAgdGl0bGU6IHN0cmluZztcbiAgZGF0ZTogc3RyaW5nO1xuICBjb250ZW50OiBzdHJpbmc7XG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBvc3QoKSB7XG4gIGNvbnNvbGUubG9nKGdldEFsbFBvc3RzKCkpXG59XG5cbi8vIGV4cG9ydCBjb25zdCBnZXRTdGF0aWNQYXRoczogR2V0U3RhdGljUGF0aHMgPSBhc3luYyAoKSA9PiB7XG4vLyAgIGNvbnN0IHNsdWdzID0gZ2V0QWxsU2x1Z3MoKTtcbi8vICAgY29uc3QgcGF0aHMgPSBzbHVncy5tYXAoKHNsdWcpID0+ICh7XG4vLyAgICAgcGFyYW1zOiB7XG4vLyAgICAgICBzbHVnOiBzbHVnLnNwbGl0KCcvJyksXG4vLyAgICAgfSxcbi8vICAgfSkpO1xuXG4vLyAgIHJldHVybiB7IHBhdGhzLCBmYWxsYmFjazogZmFsc2UgfTtcbi8vIH07XG5cbi8vIGV4cG9ydCBjb25zdCBnZXRTdGF0aWNQcm9wczogR2V0U3RhdGljUHJvcHMgPSBhc3luYyAoeyBwYXJhbXMgfSkgPT4ge1xuLy8gICBjb25zdCBzbHVnID0gKHBhcmFtcz8uc2x1ZyBhcyBzdHJpbmdbXSkuam9pbignLycpO1xuLy8gICBjb25zdCBwb3N0ID0gZ2V0UG9zdEJ5U2x1ZyhzbHVnKTtcblxuLy8gICByZXR1cm4ge1xuLy8gICAgIHByb3BzOiB7XG4vLyAgICAgICAuLi5wb3N0LFxuLy8gICAgIH0sXG4vLyAgIH07XG4vLyB9O1xuIl0sIm5hbWVzIjpbImdldEFsbFBvc3RzIiwiUG9zdCIsImNvbnNvbGUiLCJsb2ciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/pages/test.tsx\n");
 
 /***/ }),
 
@@ -73,6 +84,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (() => {
 
 
+
+/***/ }),
+
+/***/ "globby":
+/*!*************************!*\
+  !*** external "globby" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("globby");
 
 /***/ }),
 

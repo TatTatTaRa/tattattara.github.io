@@ -9,7 +9,7 @@ interface PostProps {
 }
 
 export default function Post() {
-  console.log('꾸앙')
+  console.log(getAllPosts())
 }
 
 // export const getStaticPaths: GetStaticPaths = async () => {
