@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[378],{1185:function(n,u,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/test",function(){return t(2774)}])},2774:function(n,u,t){"use strict";function o(){console.log("꾸앙")}t.r(u),t.d(u,{default:function(){return o}})}},function(n){n.O(0,[888,774,179],function(){return n(n.s=1185)}),_N_E=n.O()}]);
